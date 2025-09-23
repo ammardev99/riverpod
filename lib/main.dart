@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(title: 'Riverpod Counter Example'),
     );
   }
 }
@@ -49,7 +49,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const Text('button times:'),
+            const Text('Counter'),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
